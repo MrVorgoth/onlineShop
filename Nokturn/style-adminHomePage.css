@@ -1,0 +1,194 @@
+/* General information */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: white;
+	/*font-family: 'Lato', sans-serif;*/
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 18px;
+	color: white;
+}
+
+/* Image */
+table img {
+	width: auto;
+	max-width: 100px;
+	height: auto;
+	max-height: 100px;
+}
+
+.content {
+	color: black;
+	height: auto;
+	padding: 10px 0;
+	border-right: 5px solid #202123;
+	border-left: 5px solid #202123;
+}
+
+.admin-data, .admin-photo {
+	padding: 0;
+	margin: 0 auto 10px;
+	text-align: center;
+	padding: 0 0 5px;
+	border: 5px solid #202123;
+	height: auto;
+	min-height: 502px;
+}
+
+.admin-photo {
+	margin: 0 0 0 10px;
+}
+
+.admin-photo img {
+	margin: 50px;
+}
+.photoSize {
+	margin: 100px 50px !important;
+	width: auto;
+	max-width: 200px;
+	height: auto;
+	max-height: 300px;
+}
+
+.admin-data h2, .admin-photo h2 {
+	text-align: center;
+	color: white;
+	background-color: #202123;
+}
+
+.btnMargin {
+	margin: 0 16% !important;
+}
+
+/* Bootstrap table - inverse colors */
+
+.table-striped>tbody>tr:nth-child(2n)>td, 
+.table-striped>tbody>tr:nth-child(2n)>th {
+   background-color: #F9F9F9;
+ }
+
+.table-striped>tbody>tr:nth-child(2n+1)>td, 
+.table-striped>tbody>tr:nth-child(2n+1)>th {
+   background-color: white;
+ }
+
+.btn-adjust > a {
+	text-decoration: none;
+	color: white;
+}
+
+.btn-adjust {
+	padding: 10px 30px;
+    font-size: 20px;
+    background-color: #F4CA37;
+    border: #F4CA37;
+    color: white;
+    text-align: center;
+    display: block;
+    width: 70%;
+    margin: 10px auto;
+}
+
+.btn-adjust:hover {
+	background-color: #F5DB48;
+	color: white;
+}
+
+.container-content .content .row {
+	margin-right: 0;
+}
+
+/* Add, edit, delete product */
+
+.row {
+	margin: 20px 0;
+}
+
+.row > input[type=text] {
+	background-color: #202123;
+	color: white;
+	width: : 193px;
+	height: : 51px;
+}
+
+.row > input[type=text]:first-child {
+	margin-left: 15.2%;
+}
+
+.widthCategoryInput {
+	width: 125px;
+	height: 49px;
+}
+
+input[type=text], select {
+    padding: 12px 5px;
+    margin: 4px 1px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+form {
+	text-align: center;
+}
+
+form button {
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.js-edit-product, .js-add-product {
+	background-color: #4CAF50;
+}
+
+.js-edit-product:hover, .js-add-product:hover {
+	background-color: #6ECF72;
+}
+
+.js-delete-product {
+	background-color: #D0312D;
+}
+
+.js-delete-product:hover {
+	background-color: #F2534F;
+}
+
+.product {
+	height: 50px;
+	background-color: black;
+	text-align: center;
+	cursor: pointer;
+	margin-top: 10px;
+}
+
+#addProductAction,  #editProductAction, #deleteProductAction {
+	display: none;
+	border: 5px solid black;
+}
+
+.btnSize {
+	font-size: 25px;
+	margin: 2px 5px 5px 5px;
+	padding: 0 5px;
+	height: auto;
+	background-color: black;
+	color: white;
+	border: 1px solid white;
+}
+
+.btnSize:hover {
+	background-color: white;
+	color: black;
+}

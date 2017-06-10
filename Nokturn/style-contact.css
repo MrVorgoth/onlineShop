@@ -1,0 +1,119 @@
+.container-content, .content {
+	min-height: 60vh;
+	height: auto;
+}
+
+.content {
+	border-right: 5px solid #202123;
+	border-left: 5px solid #202123;
+	color: black;
+}
+
+.content-form, .content-map {
+	width: 90%;
+	min-height: 50vh;
+	height: auto;
+	padding: 10px;
+	display: inline-block;
+}
+
+.content-map {
+	width: 60%;
+	float: right;
+}
+
+.content-form p, .content-map p {
+	color: black;
+	text-align: center;
+	margin-top: 2%;
+	font-size: 20px;
+}
+
+.content-map img {
+	border: 2px solid white;
+}
+
+.form-control {
+	height: 55px;
+	text-align: center;
+	font-size: 20px;
+	margin-left: 4%;
+}
+
+textarea {
+	resize: none;
+}
+
+textarea.form-control {
+    height: 200px;
+    text-align: left;
+}
+
+.btn{
+	font-size: 20px;
+}
+
+.btn-primary {
+	background-color: #F2A815  !important;
+	border: #F2A815;
+	color: white;
+	display: block;
+	margin: 5px auto 0 auto;
+}
+
+.btn-primary:focus {
+	background-color: #F4CA37 !important;
+	border: #F4CA37;
+	color: white;
+}
+
+.btn-primary:hover, .btn-primary:active {
+	background-color: #F4CA37 !important;
+	border: #F4CA37;
+	color: white;
+}
+
+/* Errors */
+
+.error {
+	color: red;
+	margin: 10px 0;
+	text-align: center;
+}
+
+/* Media Queries */
+
+@media (max-width: 1199px) {
+	.container-content, .content {
+		min-height: 90vh;
+		height: auto;
+	}
+	.content-form, .content-map {
+		width: 100%;
+		min-height: 35vh;
+		height: auto;
+		padding: 10px;
+		display: block;
+	}
+	.content-map {
+		min-height: 45vh;
+		height: auto;
+	}
+	.form-control {
+		height: 35px;
+		text-align: center;
+		font-size: 16px;
+		margin-left: 0;
+	}
+	textarea.form-control {
+	    height: auto;
+	    text-align: left;
+	}
+}
+
+.contactBox
+{
+	color: black;
+	text-align: center;
+	margin-top: 30%;
+}

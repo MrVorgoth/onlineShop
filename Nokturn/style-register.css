@@ -1,0 +1,119 @@
+.container-content {
+	height: auto;
+	min-height: 635px;
+}
+
+.content {
+	border-right: 5px solid #202123;
+	border-left: 5px solid #202123;
+	height: auto;
+	min-height: 635px;
+	text-align: center;
+}
+
+.content-form {
+	width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.container-content p {
+    font-weight: bold;
+    font-size: 26px;
+    color: black;
+}
+
+.topP {
+	margin-top: 2%;
+}
+
+.img-thumbnail {
+	border: none;
+}
+
+/* Errors */
+
+.error {
+	color: red;
+	margin: 10px 0;
+}
+
+/* Terms of use + reCaptcha */
+
+.content-form .checkbox-terms {
+	height: auto;
+	text-align: center;
+	font-size: 20px;
+	margin-left: 4%;
+	padding: 7px;
+}
+
+.content-form .terms {
+	display: inline;
+	font-size: 20px;
+	padding: 5px;
+}
+
+label {
+	display: block;
+}
+
+.container-content .g-recaptcha {
+	display: block;
+	padding-left: 25%;
+}
+
+/* Media Queries */
+
+@media (max-width: 1359px) {
+	.container-content .g-recaptcha {
+		padding-left: 5%;
+	}
+}
+
+@media (max-width: 1199px) {
+	.content-form {
+		width: 100%;
+		min-height: 635px;
+		height: auto;
+		padding: 10px;
+		display: block;
+	}
+	.form-control {
+		height: 55px;
+		text-align: center;
+		font-size: 22px;
+		margin-left: 4%;
+	}
+	.container-content .g-recaptcha {
+		padding-left: 0;
+	}
+}
+
+@media (max-width: 991px) {
+	.content-form {
+		width: 100%;
+		min-height: 635px;
+		height: auto;
+		padding: 10px;
+		display: block;
+	}
+	.form-control {
+		height: 55px;
+		text-align: center;
+		font-size: 22px;
+		margin-left: 0;
+	}
+	.container-content .g-recaptcha {
+		padding-left: 25%;
+	}
+	.visible {
+		display: none;
+	}
+}
+
+@media (max-width: 767px) {
+	.container-content .g-recaptcha {
+		padding-left: 10%;
+	}
+}

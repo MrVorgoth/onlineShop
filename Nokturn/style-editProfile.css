@@ -1,0 +1,26 @@
+.font-paragraph {
+	font-size: 40px;
+}
+
+.btn-adjust {
+	padding: 10px 90px;
+	float: left;
+    margin-left: 30px;
+    background-color: #4CAF50 !important;
+}
+
+.btn-adjust:hover {
+	background-color: #6ECF72 !important;
+}
+
+.btn-red {
+    background-color: #C9302C !important;
+}
+
+.btn-red:hover {
+	background-color: #EB524E !important;
+}
+
+.btn-margin {
+	margin-left: 21%;
+}
